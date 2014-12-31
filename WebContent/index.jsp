@@ -15,36 +15,31 @@
 </head>
 <body>
 	<div data-role="header" data-position="fixed" data-fullscreen="true">
-	<div data-role="navbar" " data-iconpos="bottom">
-    <ul>
-      <li><a href="#anylink"  data-icon="search">Home</a></li>
-      <li><a href="#anylink" data-icon="arrow">Page Two</a></li>
-      <li><a href="#anylink" data-icon="home">Search</a></li>
-      <li><a href="#anylink">Search</a></li>
-      <li><a href="#anylink">Search</a></li>
-      <li><a href="#anylink">Search</a></li>
-      
-    </ul>
-  </div>
-		
+		<div data-role="navbar" " data-iconpos="bottom">
+			<ul>
+				<li><a href="#anylink" data-icon="search"
+					class="ui-btn-active ui-state-persist">Home</a></li>
+				<li><a href="#anylink" data-icon="arrow">Page Two</a></li>
+				<li><a href="#anylink" data-icon="home">Search</a></li>
 
-	<div data-role="footer" data-position="fixed" data-fullscreen="true">
-		<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On
-			Facebook</a> <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add
-			Me On Twitter</a> <a href="#"
-			class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On Instagram</a>
-		<div data-role="controlgroup" data-type="horizontal">
-			<a href="#"
-				class="ui-btn ui-corner-all ui-shadow ui-icon-comment ui-btn-icon-notext">Comment
-				page</a> <a href="#"
-				class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext">Delete
-				page</a> <a href="#"
-				class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-notext">Call
-				me</a>
+			</ul>
 		</div>
-	</div>
 
 
-
+		<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me
+				On Facebook</a> <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add
+				Me On Twitter</a> <a href="#"
+				class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On Instagram</a>
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#"
+					class="ui-btn ui-corner-all ui-shadow ui-icon-comment ui-btn-icon-notext">Comment
+					page</a> <a href="#"
+					class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext">Delete
+					page</a> <a href="#"
+					class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-notext">Call
+					me</a>
+			</div>
+		</div>
 </body>
 </html>

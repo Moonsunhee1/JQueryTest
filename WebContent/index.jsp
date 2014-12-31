@@ -14,32 +14,25 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<div data-role="header" data-position="fixed" data-fullscreen="true">
-		<div data-role="navbar" " data-iconpos="bottom">
-			<ul>
-				<li><a href="#" data-icon="plus">More</a></li>
-				<li><a href="#" data-icon="minus">Less</a></li>
-				<li><a href="#" data-icon="delete">Delete</a></li>
-				<li><a href="#" data-icon="check">Like</a></li>
-				<li><a href="#" data-icon="info">Information</a></li>
-			</ul>
+	<div data-role="page" id="pageone">
+		<div data-role="panel" id="myPanel">
+			<h2>Panel Header..</h2>
+			<p>Some text in the panel..</p>
 		</div>
-		<p>An example of a navigation bar inside the content.</p>
 
+		<div data-role="header">
+			<h1>Standard Page Header</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+			<p>Click on the button below to open the Panel.</p>
+			<a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+		</div>
+
+		<div data-role="footer">
+			<h1>Footer Text</h1>
+		</div>
 	</div>
-
-
-	<div data-role="footer" data-position="fixed" data-fullscreen="true">
-		<ul>
-			<li><a href="#" data-icon="plus">More</a></li>
-			<li><a href="#" data-icon="minus">Less</a></li>
-			<li><a href="#" data-icon="delete">Delete</a></li>
-			<li><a href="#" data-icon="check">Like</a></li>
-			<li><a href="#" data-icon="info">Information</a></li>
-		</ul>
-
-
-	</div>
-	</div>
+	[출처] [jQuery Mobile] 12. jQuery Mobile 패널|작성자 naripuru
 </body>
 </html>

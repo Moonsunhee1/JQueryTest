@@ -17,29 +17,29 @@
 	<div data-role="header" data-position="fixed" data-fullscreen="true">
 		<div data-role="navbar" " data-iconpos="bottom">
 			<ul>
-				<li><a href="#anylink" data-icon="search"
-					class="ui-btn-active ui-state-persist">Home</a></li>
-				<li><a href="#anylink" data-icon="arrow">Page Two</a></li>
-				<li><a href="#anylink" data-icon="home">Search</a></li>
-
+				<li><a href="#" data-icon="plus">More</a></li>
+				<li><a href="#" data-icon="minus">Less</a></li>
+				<li><a href="#" data-icon="delete">Delete</a></li>
+				<li><a href="#" data-icon="check">Like</a></li>
+				<li><a href="#" data-icon="info">Information</a></li>
 			</ul>
 		</div>
+		<p>An example of a navigation bar inside the content.</p>
+
+	</div>
 
 
-		<div data-role="footer" data-position="fixed" data-fullscreen="true">
-			<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me
-				On Facebook</a> <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add
-				Me On Twitter</a> <a href="#"
-				class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On Instagram</a>
-			<div data-role="controlgroup" data-type="horizontal">
-				<a href="#"
-					class="ui-btn ui-corner-all ui-shadow ui-icon-comment ui-btn-icon-notext">Comment
-					page</a> <a href="#"
-					class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext">Delete
-					page</a> <a href="#"
-					class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-notext">Call
-					me</a>
-			</div>
-		</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<ul>
+			<li><a href="#" data-icon="plus">More</a></li>
+			<li><a href="#" data-icon="minus">Less</a></li>
+			<li><a href="#" data-icon="delete">Delete</a></li>
+			<li><a href="#" data-icon="check">Like</a></li>
+			<li><a href="#" data-icon="info">Information</a></li>
+		</ul>
+
+
+	</div>
+	</div>
 </body>
 </html>

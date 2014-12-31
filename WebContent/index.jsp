@@ -26,7 +26,18 @@
 			Facebook</a> <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add
 			Me On Twitter</a> <a href="#"
 			class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On Instagram</a>
+		<div data-role="controlgroup" data-type="horizontal">
+			<a href="#"
+				class="ui-btn ui-corner-all ui-shadow ui-icon-comment ui-btn-icon-notext">Comment
+				page</a> <a href="#"
+				class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext">Delete
+				page</a> <a href="#"
+				class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-notext">Call
+				me</a>
+		</div>
 	</div>
+
+
 
 </body>
 </html>

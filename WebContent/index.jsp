@@ -15,8 +15,8 @@
 </head>
 <body>
 	<div data-role="page" id="pageone">
-		<div data-role="panel" id="myPanel" data-position="right" data-swipe-close="true"
-			data-display="overlay">
+		<div data-role="panel" id="myPanel" data-position-fixed="true"
+			data-swipe-close="true" data-display="overlay">
 			<h2>Panel Header..</h2>
 			<p>Some text in the panel..</p>
 			<a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline">Close

@@ -15,9 +15,12 @@
 </head>
 <body>
 	<div data-role="page" id="pageone">
-		<div data-role="panel" id="myPanel">
+		<div data-role="panel" id="myPanel" data-swipe-close = "true">
 			<h2>Panel Header..</h2>
 			<p>Some text in the panel..</p>
+			<a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline">Close
+				Panel</a>
+
 		</div>
 
 		<div data-role="header">
@@ -33,6 +36,5 @@
 			<h1>Footer Text</h1>
 		</div>
 	</div>
-	[출처] [jQuery Mobile] 12. jQuery Mobile 패널|작성자 naripuru
 </body>
 </html>

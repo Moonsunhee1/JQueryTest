@@ -14,14 +14,14 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<div data-role="header">
+	<div data-role="header" data-position="fixed" data-fullscreen="true">
 		<a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
 		<h1>Welcome To My Homepage</h1>
 		<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left">Search</a>
 
 	</div>
 
-	<div data-role="footer" style="text-align: center;">
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
 		<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add Me On
 			Facebook</a> <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">Add
 			Me On Twitter</a> <a href="#"

@@ -15,11 +15,11 @@
 </head>
 <body>
 	<div data-role="header" data-position="fixed" data-fullscreen="true">
-	<div data-role="navbar">
+	<div data-role="navbar" " data-iconpos="bottom">
     <ul>
-      <li><a href="#anylink">Home</a></li>
-      <li><a href="#anylink">Page Two</a></li>
-      <li><a href="#anylink">Search</a></li>
+      <li><a href="#anylink"  data-icon="search">Home</a></li>
+      <li><a href="#anylink" data-icon="arrow">Page Two</a></li>
+      <li><a href="#anylink" data-icon="home">Search</a></li>
       <li><a href="#anylink">Search</a></li>
       <li><a href="#anylink">Search</a></li>
       <li><a href="#anylink">Search</a></li>

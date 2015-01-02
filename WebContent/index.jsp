@@ -9,7 +9,10 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-
+<style type="text/css">
+#sunhee>li{
+background : #FFC19E}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>SunheeTest</title>
 </head>
@@ -45,7 +48,8 @@
 		</div>
 		<div data-role="main" class="ui-content">
 			<h2>My Phonebook</h2>
-			<ul data-role="listview" data-autodividers="true" data-inset="true">
+			<ul data-role="listview" data-autodividers="true" data-inset="true"
+				id="sunhee">
 				<li><a href="#adelePage">Adele</a></li>
 				<li><a href="#billyPage">Billy</a></li>
 			</ul>

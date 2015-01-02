@@ -14,14 +14,30 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<div data-role="collapsible">
-		<h1>Click me - I'm collapsible!</h1>
-		<p>I'm the expanded content.</p>
-		<div data-role="collapsible">
-			<h1>Click me - I'm a nested collapsible block!</h1>
-			<p>I'm the expanded content in the nested collapsible block.</p>
-		</div>
-	</div>
+<div data-role="main" class="ui-content">
+    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-gear ui-btn-icon-left">Show Collapsible Popup</a>
+    <div data-role="popup" id="myPopup" class="ui-content">
+      <h2>Choose collapsible</h2>
+      <div data-role="collapsibleset">
+        <div data-role="collapsible">
+          <h3>Click me - I'm collapsible!</h3>
+          <p>I'm the expanded content.</p>
+        </div>
+        <div data-role="collapsible">
+          <h3>Click me - I'm collapsible!</h3>
+          <p>I'm the expanded content.</p>
+        </div>
+        <div data-role="collapsible">
+          <h3>Click me - I'm collapsible!</h3>
+          <p>I'm the expanded content.</p>
+        </div>
+        <div data-role="collapsible">
+          <h3>Click me - I'm collapsible!</h3>
+          <p>I'm the expanded content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

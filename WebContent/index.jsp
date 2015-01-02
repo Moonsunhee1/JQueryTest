@@ -17,6 +17,10 @@
 	<div data-role="collapsible">
 		<h1>Click me - I'm collapsible!</h1>
 		<p>I'm the expanded content.</p>
+		<div data-role="collapsible">
+			<h1>Click me - I'm a nested collapsible block!</h1>
+			<p>I'm the expanded content in the nested collapsible block.</p>
+		</div>
 	</div>
 
 </body>

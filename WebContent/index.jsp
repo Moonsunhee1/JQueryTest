@@ -14,8 +14,7 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<table data-role="table" data-mode="columntoggle" class="ui-responsive"
-		id="myTable">
+	<table data-role="table" class="ui-responsive" id="myTable">
 		<thead>
 			<tr>
 				<th data-priority="6">CustomerID</th>
@@ -23,8 +22,8 @@
 				<th data-priority="1">ContactName</th>
 				<th data-priority="2">Address</th>
 				<th data-priority="3">City</th>
-				<th data-priority="4">PostalCode</th>
-s				<th data-priority="5">Country</th>
+				<th data-priority="4">PostalCode</th> s
+				<th data-priority="5">Country</th>
 			</tr>
 		</thead>
 		<tbody>

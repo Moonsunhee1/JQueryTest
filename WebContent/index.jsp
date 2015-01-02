@@ -14,13 +14,17 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<ol data-role="listview">
-		<li><a href="#">List Item</a></li>
-	</ol>
 
-	<ul data-role="listview" data-inset="ture">
-		<li><a href="#">List Item</a></li>
+
+	<ul data-role="listview" data-autodividers="ture">
+		<li data-role="list-divider">Europe</li>
+		<li><a href="#">Adele</a></li>
+		<li><a href="#">Agnes</a></li>
+		<li><a href="#">Billy</a></li>
+		<li><a href="#">Calvin</a></li>
+
 	</ul>
+
 
 </body>
 </html>

@@ -14,30 +14,31 @@
 <title>SunheeTest</title>
 </head>
 <body>
-<div data-role="main" class="ui-content">
-    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-gear ui-btn-icon-left">Show Collapsible Popup</a>
-    <div data-role="popup" id="myPopup" class="ui-content">
-      <h2>Choose collapsible</h2>
-      <div data-role="collapsibleset">
-        <div data-role="collapsible">
-          <h3>Click me - I'm collapsible!</h3>
-          <p>I'm the expanded content.</p>
-        </div>
-        <div data-role="collapsible">
-          <h3>Click me - I'm collapsible!</h3>
-          <p>I'm the expanded content.</p>
-        </div>
-        <div data-role="collapsible">
-          <h3>Click me - I'm collapsible!</h3>
-          <p>I'm the expanded content.</p>
-        </div>
-        <div data-role="collapsible">
-          <h3>Click me - I'm collapsible!</h3>
-          <p>I'm the expanded content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+	<table data-role="table" data-mode="columntoggle" class="ui-responsive"
+		id="myTable">
+		<thead>
+			<tr>
+				<th data-priority="6">CustomerID</th>
+				<th>CustomerName</th>
+				<th data-priority="1">ContactName</th>
+				<th data-priority="2">Address</th>
+				<th data-priority="3">City</th>
+				<th data-priority="4">PostalCode</th>
+s				<th data-priority="5">Country</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Alfreds Futterkiste</td>
+				<td>Maria Anders</td>
+				<td>Obere Str. 57</td>
+				<td>Berlin</td>
+				<td>12209</td>
+				<td>Germany</td>
+			</tr>
+		</tbody>
+	</table>
 
 </body>
 </html>

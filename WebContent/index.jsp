@@ -30,31 +30,31 @@ tr:nth-child(even) {
 <title>SunheeTest</title>
 </head>
 <body>
-	<table data-role="table" data-mode="columntoggle"
-		class="ui-responsive ui-shadow" id="myTable">
-		<thead>
-			<tr>
-				<th data-priority="6">CustomerID</th>
-				<th>CustomerName</th>
-				<th data-priority="1">ContactName</th>
-				<th data-priority="2">Address</th>
-				<th data-priority="3">City</th>
-				<th data-priority="4">PostalCode</th>
-				<th data-priority="5">Country</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Alfreds Futterkiste</td>
-				<td>Maria Anders</td>
-				<td>Obere Str. 57</td>
-				<td>Berlin</td>
-				<td>12209</td>
-				<td>Germany</td>
-			</tr>
-		</tbody>
-	</table>
-
+	<div class="ui-grid-b ui-responsive">
+		<div class="ui-block-a">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-b">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-c">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-a">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-b">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-a">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-b">
+			<span>Some Text</span>
+		</div>
+		<div class="ui-block-c">
+			<span>Some Text</span>
+		</div>
+	</div>
 </body>
 </html>

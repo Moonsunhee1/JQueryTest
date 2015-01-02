@@ -15,7 +15,11 @@ tr {
 }
 
 th {
-	border-bottom: 1px solid #d6d6d6;
+	border-bottom: 1px solid #8041D9;
+}
+
+td {
+	background: #FFC19E;
 }
 
 tr:nth-child(even) {
@@ -26,7 +30,8 @@ tr:nth-child(even) {
 <title>SunheeTest</title>
 </head>
 <body>
-	<table data-role="table" class="ui-responsive ui-shadow" id="myTable">
+	<table data-role="table" data-mode="columntoggle"
+		class="ui-responsive ui-shadow" id="myTable">
 		<thead>
 			<tr>
 				<th data-priority="6">CustomerID</th>

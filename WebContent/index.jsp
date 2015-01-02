@@ -14,8 +14,7 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<table data-role="table" data-mode="columntoggle" class="ui-responsive"
-		data-column-btn-text="Click me to hide or show columns!" id="myTable">
+	<table data-role="table" class="ui-responsive" id="myTable">
 		<thead>
 			<tr>
 				<th data-priority="6">CustomerID</th>

@@ -18,41 +18,54 @@
 <title>SunheeTest</title>
 </head>
 <body>
-	<ul data-role="listview">
-		<li><a href="#"><img src="1111.png"></a> <a href="#">Some
-				Text</a></li>
-	</ul>
+<body>
 	<div data-role="page" id="pageone">
-		<div data-role="main" class="ui-content">
-			<h2>Click On The Gear Icons!</h2>
-			<ul data-role="listview" data-inset="true">
-				<li data-role="divider">Browsers</li>
-				<li><a href="#"> <img src="chrome.png">
-						<h2>Google Chrome</h2>
-						<p>Google Chrome is a free, open-source web browser. Released
-							in 2008.</p>
-				</a> <a href="#download" data-transition="pop" data-icon="gear">Download
-						Browser</a></li>
-				<li><a href="#"> <img src="firefox.png">
-						<h2>Mozilla Firefox</h2>
-						<p>Firefox is a web browser from Mozilla. Released in 2004.</p>
-				</a> <a href="#download" data-transition="pop" data-icon="gear">Download
-						Browser</a></li>
-			</ul>
-		</div>
-	</div>
-	<div data-role="page" id="download" data-dialog="true">
-		<div data-role="main" class="ui-content">
-			<h3>Split Button Example</h3>
-			<p>The buttons below are for demonstration purposes only.</p>
-			<a href="#"
-				class="ui-btn ui-btn-inline ui-btn-b ui-shadow ui-corner-all ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini"
-				data-rel="back">Download</a> <a href="#"
-				class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-inline ui-mini"
-				data-rel="back">Cancel</a>
-		</div>
-	</div>
-	
-
+  <div data-role="header">
+    <h1>Header Text</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <h2>My Calendar</h2>
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Wednesday, January 2, 2014 <span
+					class="ui-li-count">2</span></li>   
+      <li><a href="#">   
+        <h2>Doctor</h2>
+        <p>
+							<b>To Peter Griffin</b>
+						</p>
+        <p>Well, Mr. Griffin, I've looked into physical results.</p>
+        <p>Ah, Mr. Griffin, I'm not quite sure how to say this. Kim Bassinger? Bass singer? Bassinger?</p>
+        <p>But now, onto the cancer</p>
+        <p>You are a Cancer, right? You were born in July? Now onto these test results.</p>
+        <p class="ui-li-aside">Re: Appointment</p>
+				</a>
+      </li>
+      <li><a href="#">
+        <h2>Glen Quagmire</h2>
+        <p>Don't forget me this weekend!</p>
+        <br>
+        <p>- giggity giggity goo</p>
+        <p class="ui-li-aside">Re: Camping</p>
+				</a>
+      </li>
+      <li data-role="list-divider">Tuesday, January 1, 2014 <span
+					class="ui-li-count">1</span></li>   
+      <li><a href="#">   
+        <h2>Louis</h2>
+        <p>
+							<b>Happy Girl!</b>
+						</p>
+        <p>Thank you so much, Peter!!</p>
+        <p class="ui-li-aside">Re: Christmas Gifts</p>
+				</a>
+      </li>
+    </ul>
+  </div>
+ <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div>
 </body>
+
+
 </html>

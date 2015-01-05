@@ -19,12 +19,11 @@
 </head>
 <body>
 <body>
-<div class="ui-content">
 	<form method="post" action="demoform.asp">
-		<label for="points">Points:</label> <input type="range" name="points"
-			id="points" value="50" min="0" max="100" data-popup-enabled="true">
+		<label for="switch">Flip toggle switch checkbox:</label> <input
+			type="checkbox" data-role="flipswitch" name="switch" id="switch">
 	</form>
-	</div>
+
 </body>
 
 

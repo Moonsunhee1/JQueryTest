@@ -21,7 +21,8 @@
 <body>
 	<form method="post" action="demoform.asp">
 		<fieldset class="ui-field-contain">
-			<label for="day">Select Day</label> <select name="day" id="day">
+			<label for="day">Select Day</label> <select name="day" id="day"
+				multiple data-native-menu="false">
 				<optgroup label="Weekdays">
 					<option value="mon">Monday</option>
 					<option value="tue">Tuesday</option>

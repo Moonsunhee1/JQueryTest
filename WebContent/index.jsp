@@ -25,7 +25,7 @@
 	</form>
 
 	<ul data-role="listview" data-filter="true" data-input="#myFilter">
-		<li><a href="#">Adele</a></li>
+		<li data-filtertext="fav"><a href="#">Adele</a></li>
 		<li><a href="#">Billy</a></li>
 		<li><a href="#">Calvin</a></li>
 	</ul>

@@ -19,14 +19,20 @@
 </head>
 <body>
 <body>
-	<form method="post" action="demoform.asp">
-		<fieldset data-role="controlgroup">
-			<legend>Choose your gender:</legend>
-			<label for="male">Male</label> <input type="radio" name="gender"
-				id="male" value="male"> <label for="female">Female</label> <input
-				type="radio" name="gender" id="female" value="female">
-		</fieldset>
-	</form>
+	<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline">Show
+		Popup Form</a>
+
+	<div data-role="popup" id="myPopup" class="ui-content">
+		<form method="post" action="demoform.asp">
+			<div>
+				<h3>Login information</h3>
+				<label for="usrnm" class="ui-hidden-accessible">Username:</label> <input
+					type="text" name="user" id="usrnm" placeholder="Username">
+				<label for="pswd" class="ui-hidden-accessible">Password:</label> <input
+					type="password" name="passw" id="pswd" placeholder="Password">
+			</div>
+		</form>
+	</div>
 </body>
 
 

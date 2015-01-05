@@ -19,29 +19,11 @@
 </head>
 <body>
 <body>
-
-	<div data-role="page">
-		<div data-role="header">
-			<h1>Collapsible Forms</h1>
-		</div>
-		<div data-role="main" class="ui-content">
-			<form method="post" action="demoform.asp">
-				<fieldset data-role="collapsible">
-					<legend>Click me - I'm collapsible!</legend>
-					<label for="name">Full Name:</label> <input type="text" name="text"
-						id="name">
-					<p>Favorite Color:</p>
-					<div data-role="controlgroup">
-						<label for="red">Red</label> <input type="checkbox"
-							name="favcolor" id="red" value="red"> <label for="green">Green</label>
-						<input type="checkbox" name="favcolor" id="green" value="green">
-						<label for="blue">Blue</label> <input type="checkbox"
-							name="favcolor" id="blue" value="blue">
-					</div>
-					<input type="submit" data-inline="true" value="Submit">
-				</fieldset>
-			</form>
-		</div>
+<div class="ui-content">
+	<form method="post" action="demoform.asp">
+		<label for="points">Points:</label> <input type="range" name="points"
+			id="points" value="50" min="0" max="100" data-popup-enabled="true">
+	</form>
 	</div>
 </body>
 

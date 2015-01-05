@@ -20,38 +20,29 @@
 <body>
 <body>
 
-	<div data-role="main" class="ui-content">
-		<form method="post" action="demoform.asp">
-			<div class="ui-field-contain">
-				<fieldset data-role="controlgroup">
-					<legend>Schedule a Meeting:</legend>
-					<label for="day">Select Day</label> <select name="day" id="day">
-						<option value="mon">Monday</option>
-						<option value="tue">Tuesday</option>
-						<option value="wed">Wednesday</option>
-						<option value="thu">Thursday</option>
-						<option value="fri">Friday</option>
-						<option value="sat">Saturday</option>
-						<option value="sun">Sunday</option>
-					</select> <label for="time">Select Time</label> <select name="time"
-						id="time">
-						<option value="08">08:00</option>
-						<option value="09">09:00</option>
-						<option value="10">10:00</option>
-						<option value="11">11:00</option>
-						<option value="12">12:00</option>
-						<option value="13">13:00</option>
-						<option value="14">14:00</option>
-						<option value="15">15:00</option>
-						<option value="16">16:00</option>
-					</select>
+	<div data-role="page">
+		<div data-role="header">
+			<h1>Collapsible Forms</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<form method="post" action="demoform.asp">
+				<fieldset data-role="collapsible">
+					<legend>Click me - I'm collapsible!</legend>
+					<label for="name">Full Name:</label> <input type="text" name="text"
+						id="name">
+					<p>Favorite Color:</p>
+					<div data-role="controlgroup">
+						<label for="red">Red</label> <input type="checkbox"
+							name="favcolor" id="red" value="red"> <label for="green">Green</label>
+						<input type="checkbox" name="favcolor" id="green" value="green">
+						<label for="blue">Blue</label> <input type="checkbox"
+							name="favcolor" id="blue" value="blue">
+					</div>
+					<input type="submit" data-inline="true" value="Submit">
 				</fieldset>
-			</div>
-			<input type="submit" data-inline="true" value="Submit">
-		</form>
+			</form>
+		</div>
 	</div>
-	</div>
-
 </body>
 
 

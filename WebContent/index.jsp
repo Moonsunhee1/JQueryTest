@@ -20,8 +20,9 @@
 <body>
 <body>
 	<form method="post" action="demoform.asp">
-		<label for="fname">First name:</label> <input type="text" name="fname"
-			id="fname">
+		<label for="fname" class="ui-hidden-accessible">First name:</label>
+<input type="text" name="fname" id="fname" data-clear-btn="true">
+
 	</form>
 
 </body>

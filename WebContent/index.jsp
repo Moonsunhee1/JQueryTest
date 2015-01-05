@@ -20,11 +20,12 @@
 <body>
 <body>
 	<form method="post" action="demoform.asp">
-		<label for="fname" class="ui-hidden-accessible">First name:</label>
-<input type="text" name="fname" id="fname" data-clear-btn="true">
-
+		<div class="ui-field-contain">
+			<label for="fname">First name:</label> <input type="text"
+				name="fname" id="fname"> <label for="lname">Last
+				name:</label> <input type="text" name="lname" id="lname">
+		</div>
 	</form>
-
 </body>
 
 

@@ -19,23 +19,39 @@
 </head>
 <body>
 <body>
-	<form method="post" action="demoform.asp">
-		<fieldset class="ui-field-contain">
-			<label for="day">Select Day</label> <select name="day" id="day"
-				multiple data-native-menu="false">
-				<optgroup label="Weekdays">
-					<option value="mon">Monday</option>
-					<option value="tue">Tuesday</option>
-					<option value="wed">Wednesday</option>
-				</optgroup>
-				<optgroup label="Weekends">
-					<option value="sat">Saturday</option>
-					<option value="sun">Sunday</option>
-				</optgroup>
 
-			</select>
-		</fieldset>
-	</form>
+	<div data-role="main" class="ui-content">
+		<form method="post" action="demoform.asp">
+			<div class="ui-field-contain">
+				<fieldset data-role="controlgroup">
+					<legend>Schedule a Meeting:</legend>
+					<label for="day">Select Day</label> <select name="day" id="day">
+						<option value="mon">Monday</option>
+						<option value="tue">Tuesday</option>
+						<option value="wed">Wednesday</option>
+						<option value="thu">Thursday</option>
+						<option value="fri">Friday</option>
+						<option value="sat">Saturday</option>
+						<option value="sun">Sunday</option>
+					</select> <label for="time">Select Time</label> <select name="time"
+						id="time">
+						<option value="08">08:00</option>
+						<option value="09">09:00</option>
+						<option value="10">10:00</option>
+						<option value="11">11:00</option>
+						<option value="12">12:00</option>
+						<option value="13">13:00</option>
+						<option value="14">14:00</option>
+						<option value="15">15:00</option>
+						<option value="16">16:00</option>
+					</select>
+				</fieldset>
+			</div>
+			<input type="submit" data-inline="true" value="Submit">
+		</form>
+	</div>
+	</div>
+
 </body>
 
 

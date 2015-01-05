@@ -19,20 +19,22 @@
 </head>
 <body>
 <body>
-	<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline">Show
-		Popup Form</a>
+	<form method="post" action="demoform.asp">
+		<fieldset class="ui-field-contain">
+			<label for="day">Select Day</label> <select name="day" id="day">
+				<optgroup label="Weekdays">
+					<option value="mon">Monday</option>
+					<option value="tue">Tuesday</option>
+					<option value="wed">Wednesday</option>
+				</optgroup>
+				<optgroup label="Weekends">
+					<option value="sat">Saturday</option>
+					<option value="sun">Sunday</option>
+				</optgroup>
 
-	<div data-role="popup" id="myPopup" class="ui-content">
-		<form method="post" action="demoform.asp">
-			<div>
-				<h3>Login information</h3>
-				<label for="usrnm" class="ui-hidden-accessible">Username:</label> <input
-					type="text" name="user" id="usrnm" placeholder="Username">
-				<label for="pswd" class="ui-hidden-accessible">Password:</label> <input
-					type="password" name="passw" id="pswd" placeholder="Password">
-			</div>
-		</form>
-	</div>
+			</select>
+		</fieldset>
+	</form>
 </body>
 
 

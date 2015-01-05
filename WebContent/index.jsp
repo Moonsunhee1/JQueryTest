@@ -19,30 +19,10 @@
 </head>
 <body>
 <body>
-
-	<div data-role="main" class="ui-content">
-		<form>
-			<input data-type="search" id="divOfPs-input">
-		</form>
-		<div class="elements" data-filter="true" data-input="#divOfPs-input">
-			<p>
-				<strong>These</strong> Lorem ipsum dolor sit amet, consetetur
-				sadipscing elitr, sed diam
-			</p>
-			<p>
-				<strong>p elements</strong> nonumy eirmod tempor invidunt ut labore
-				et dolore magna aliquyam
-			</p>
-			<p>
-				<strong>are</strong> et ea rebum. Stet clita kasd gubergren, no sea
-				takimata sanctus est
-			</p>
-			<p>
-				<strong>filterable</strong> Lorem ipsum dolor sit amet. Lorem ipsum
-				dolor sit amet, consetetur
-			</p>
-		</div>
-	</div>
+	<form method="post" action="demoform.asp">
+		<label for="fname">First name:</label> <input type="text" name="fname"
+			id="fname">
+	</form>
 
 </body>
 

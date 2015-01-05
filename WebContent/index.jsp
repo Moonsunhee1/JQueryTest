@@ -20,11 +20,12 @@
 <body>
 <body>
 	<form method="post" action="demoform.asp">
-		<div class="ui-field-contain">
-			<label for="fname">First name:</label> <input type="text"
-				name="fname" id="fname"> <label for="lname">Last
-				name:</label> <input type="text" name="lname" id="lname">
-		</div>
+		<fieldset data-role="controlgroup">
+			<legend>Choose your gender:</legend>
+			<label for="male">Male</label> <input type="radio" name="gender"
+				id="male" value="male"> <label for="female">Female</label> <input
+				type="radio" name="gender" id="female" value="female">
+		</fieldset>
 	</form>
 </body>
 

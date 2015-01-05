@@ -9,21 +9,43 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-<style type="text/css">
-#sunhee>li {
-	background: #FFC19E
+<style>
+/* Custom indentations are needed because the length of custom labels differs from
+   the length of the standard labels */
+.custom-size-flipswitch.ui-flipswitch .ui-btn.ui-flipswitch-on {
+	text-indent: -4em;
+}
+
+.custom-size-flipswitch.ui-flipswitch .ui-flipswitch-off {
+	text-indent: 2em;
+}
+/* Custom widths are needed because the length of custom labels differs from
+   the length of the standard labels */
+.custom-size-flipswitch.ui-flipswitch {
+	width: 8.875em;
+}
+
+.custom-size-flipswitch.ui-flipswitch.ui-flipswitch-active {
+	padding-left: 7em;
+	width: 1.875em;
 }
 </style>
+
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>SunheeTest</title>
+<title>JqueryTest</title>
 </head>
 <body>
 <body>
-	<form method="post" action="demoform.asp">
-		<label for="switch">Flip toggle switch checkbox:</label> <input
-			type="checkbox" data-role="flipswitch" name="switch" id="switch">
-	</form>
-
+	<div data-role="page">
+		<div data-role="main" class="ui-content">
+			<form method="post" action="demoform.asp">
+				<label for="switch">Flip Toggle Switch:</label> <input
+					type="checkbox" data-role="flipswitch" name="switch" id="switch"
+					data-wrapper-class="custom-size-flipswitch"> <br> <input
+					type="submit" data-inline="true" value="Submit">
+			</form>
+		</div>
+	</div>
 </body>
 
 

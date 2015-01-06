@@ -14,48 +14,55 @@
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 
-<script>
-	$(document).on("pagebeforeshow", "#pagetwo", function() {
-		alert("pagebeforeshow event fired - pagetwo is about to be shown");
-	});
-	$(document).on("pageshow", "#pagetwo", function() {
-		alert("pageshow event fired - pagetwo is now shown");
-	});
-	$(document).on("pagebeforehide", "#pagetwo", function() {
-		alert("pagebeforehide event fired - pagetwo is about to be hidden");
-	});
-	$(document).on("pagehide", "#pagetwo", function() {
-		alert("pagehide event fired - pagetwo is now hidden");
-	});
-</script>
 
 <title>JqueryTest</title>
 </head>
 <body>
-	<div data-role="page" id="pageone">
-		<div data-role="header">
-			<h1>Header Text</h1>
-		</div>
-		<div data-role="main" class="ui-content">
-			<p>Page One</p>
-			<a href="#pagetwo">Go to Page Two</a>
-		</div>
-		<div data-role="footer">
-			<h1>Footer Text</h1>
-		</div>
-	</div>
-	<div data-role="page" id="pagetwo">
-		<div data-role="header">
-			<h1>Header Text</h1>
-		</div>
-		<div data-role="main" class="ui-content">
-			<p>Page Two</p>
-			<a href="page1.html">Go Back to Page One</a>
-		</div>
-		<div data-role="footer">
-			<h1>Footer Text</h1>
-		</div>
-	</div>
+	<ul data-role="listview">
+
+		<li data-theme="h"><a href="#">
+				<p class="lefticon">
+					<img src="12.jpg"
+						style="width: 40px; height: 40px;">
+				</p>
+				<h2>Strophe.js IQ보내는 방법(basic)</h2>
+				<p>
+					<strong>lunarcell</strong><span class="t2"> snippet file</span>
+				</p>
+				<p>
+					<span class="t1">2014.11.16. at 2:31 pm in #strophe</span>
+				</p>
+		</a></li>
+
+		<li data-theme="h"><a href="#">
+				<p class="lefticon">
+					<img src="12.jpg"
+						style="width: 40px; height: 40px;">
+				</p>
+				<h2>Strophe.js IQ보내는 방법(basic)</h2>
+				<p>
+					<strong>lunarcell</strong><span class="t2"> snippet file</span>
+				</p>
+				<p>
+					<span class="t1">2014.11.16. at 2:31 pm in #strophe</span>
+				</p>
+		</a></li>
+
+		<li data-theme="h"><a href="#">
+				<p class="lefticon">
+					<img src="12.jpg"
+						style="width: 40px; height: 40px;">
+				</p>
+				<h2>Strophe.js IQ보내는 방법(basic)</h2>
+				<p>
+					<strong>lunarcell</strong><span class="t2"> snippet file</span>
+				</p>
+				<p>
+					<span class="t1">2014.11.16. at 2:31 pm in #strophe</span>
+				</p>
+		</a></li>
+
+	</ul>
 </body>
 
 

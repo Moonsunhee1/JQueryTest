@@ -13,11 +13,20 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+
 <script>
-	$(document).on("pagecreate", function(event) {
-		$(window).on("orientationchange", function(event) {
-		});
-	});
+	$(document)
+			.on(
+					"pagebeforecreate",
+					function() {
+						alert("pagebeforecreate event fired - the page is about to be initialized. jQuery Mobile has not begun enhancing the page");
+					});
+	$(document)
+			.on(
+					"pagecreate",
+					function() {
+						alert("pagecreate event fired - the page has been created, but enhancement is not complete");
+					});
 </script>
 
 <title>JqueryTest</title>
@@ -25,14 +34,10 @@
 <body>
 	<div data-role="page">
 		<div data-role="header">
-			<h1>The orientationchange Event</h1>
+			<h1>Header Text</h1>
 		</div>
 		<div data-role="main" class="ui-content">
-			<p>Try to rotate your device!</p>
-			<p>
-				<b>Note:</b> You must use a mobile device, or a mobile emulator to
-				see the effect of this event.
-			</p>
+			<p>The page has been created and enhancement is done!</p>
 		</div>
 		<div data-role="footer">
 			<h1>Footer Text</h1>

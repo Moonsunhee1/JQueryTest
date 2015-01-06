@@ -16,17 +16,12 @@
 </head>
 <body>
 <body>
-	<div data-role="footer" data-theme="b">
-		<h1>Insert Footer Text Here</h1>
-		<div data-role="navbar">
-			<ul>
-				<li><a href="#" data-icon="home" data-theme="a">Button 1</a></li>
-				<li><a href="#" data-icon="arrow-r">Button 2</a></li>
-				<li><a href="#" data-icon="arrow-r">Button 3</a></li>
-				<li><a href="#" data-icon="search" data-theme="a">Button 4</a></li>
-			</ul>
-		</div>
+
+	<div data-role="collapsible" data-theme="b" data-content-theme="a">
+		<h1>Click me - I'm collapsible!</h1>
+		<p>I'm the expanded content.</p>
 	</div>
+
 
 </body>
 

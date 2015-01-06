@@ -14,40 +14,25 @@
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 <script>
-	$(document).on("scrollstart", function() {
-
-	});
-	$(document).on("pagecreate", "#pageone", function() {
-
+	$(document).on("pagecreate", function(event) {
+		$(window).on("orientationchange", function(event) {
+		});
 	});
 </script>
+
 <title>JqueryTest</title>
 </head>
 <body>
-	<div data-role="page" id="pageone3">
+	<div data-role="page">
 		<div data-role="header">
-			<h1>The scrollstart Event</h1>
+			<h1>The orientationchange Event</h1>
 		</div>
 		<div data-role="main" class="ui-content">
+			<p>Try to rotate your device!</p>
 			<p>
-				<b>Tip:</b> Try to to resize the window if the scrollbar is not
-				available.
+				<b>Note:</b> You must use a mobile device, or a mobile emulator to
+				see the effect of this event.
 			</p>
-
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
-			<p>Some text to enable scrolling..Some text to enable
 		</div>
 		<div data-role="footer">
 			<h1>Footer Text</h1>

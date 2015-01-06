@@ -14,15 +14,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>JqueryTest</title>
 </head>
+
 <body>
-<body>
+	<label for="name">Full Name:</label>
+	<input type="text" name="text" id="name" data-theme="b">
 
-	<div data-role="collapsible" data-theme="b" data-content-theme="a">
-		<h1>Click me - I'm collapsible!</h1>
-		<p>I'm the expanded content.</p>
-	</div>
-
-
+	<label for="colors">Choose Favorite Color:</label>
+	<select id="colors" name="colors" data-theme="b">
+		<option value="red">Red</option>
+		<option value="green">Green</option>
+		<option value="blue">Blue</option>
+	</select>
 </body>
 
 

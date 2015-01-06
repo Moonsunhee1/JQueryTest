@@ -15,15 +15,13 @@
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 <script>
 	$(document).on("pagecreate", "#pageone", function() {
-		$("p").on("tap", function() {
-			$(this).hide();
+		$("p").on("swipe", function() {
+			$(this).text("Swipe detected!");
 		});
 	});
 </script>
-
 <title>JqueryTest</title>
 </head>
-
 <body>
 	<div data-role="page" id="pageone">
 		<div data-role="header">

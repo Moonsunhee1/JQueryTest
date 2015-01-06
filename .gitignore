@@ -8,3 +8,6 @@ WebContent/META-INF/MANIFEST.MF
 .settings/org.eclipse.wst.common.component
 .settings/org.eclipse.wst.jsdt.ui.superType.container
 .settings/org.eclipse.core.resources.prefs
+*.gif
+*.png
+*.css

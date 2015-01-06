@@ -15,34 +15,30 @@
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 
 <script>
-	$(document)
-			.on(
-					"pagebeforecreate",
-					function() {
-						alert("pagebeforecreate event fired - the page is about to be initialized. jQuery Mobile has not begun enhancing the page");
-					});
-	$(document)
-			.on(
-					"pagecreate",
-					function() {
-						alert("pagecreate event fired - the page has been created, but enhancement is not complete");
-					});
+	$(document).on("pagecontainerload", function(event, data) {
+		alert("pagecontainerload event fired!\nURL: " + data.url);
+	});
+	$(document).on("pagecontainerloadfailed", function(event, data) {
+		alert("Sorry, requested page does not exist.");
+	});
 </script>
 
 <title>JqueryTest</title>
 </head>
 <body>
-	<div data-role="page">
-		<div data-role="header">
-			<h1>Header Text</h1>
-		</div>
-		<div data-role="main" class="ui-content">
-			<p>The page has been created and enhancement is done!</p>
-		</div>
-		<div data-role="footer">
-			<h1>Footer Text</h1>
-		</div>
-	</div>
+<div data-role="page">
+  <div data-role="header">
+    <h1>Header Text</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="page1.html">External page</a>
+    <br><br>
+    <a href="externalnotexist.html">External page that does not exist</a>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div>
 </body>
 
 

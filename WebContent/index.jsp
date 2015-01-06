@@ -14,19 +14,30 @@
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 <script>
-	$(document).ready(function() {
-		$("p").on("click", function() {
+	$(document).on("pagecreate", "#pageone", function() {
+		$("p").on("tap", function() {
 			$(this).hide();
 		});
 	});
 </script>
+
 <title>JqueryTest</title>
 </head>
 
 <body>
-	<p>If you click on me, I will disappear.</p>
-	<p>Click me away!</p>
-	<p>Click me too!</p>
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<h1>The tap Event</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<p>If you tap me, I will disappear.</p>
+			<p>Tap me away!</p>
+			<p>Tap me too!</p>
+		</div>
+		<div data-role="footer">
+			<h1>Footer Text</h1>
+		</div>
+	</div>
 </body>
 
 

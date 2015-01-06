@@ -13,20 +13,20 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-
+<script>
+	$(document).ready(function() {
+		$("p").on("click", function() {
+			$(this).hide();
+		});
+	});
+</script>
 <title>JqueryTest</title>
 </head>
 
 <body>
-	<label for="name">Full Name:</label>
-	<input type="text" name="text" id="name" data-theme="b">
-
-	<label for="colors">Choose Favorite Color:</label>
-	<select id="colors" name="colors" data-theme="b">
-		<option value="red">Red</option>
-		<option value="green">Green</option>
-		<option value="blue">Blue</option>
-	</select>
+	<p>If you click on me, I will disappear.</p>
+	<p>Click me away!</p>
+	<p>Click me too!</p>
 </body>
 
 
